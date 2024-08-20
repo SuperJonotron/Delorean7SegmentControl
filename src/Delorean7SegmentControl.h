@@ -46,22 +46,22 @@ const byte numberOfDigits = 4;
 #elif defined(ARDUINO_ARCH_MBED_RP2040) || defined(ARDUINO_ARCH_RP2040)
 	 
 	//define shared DIO Pin
-	const byte PIN_DIO = 2;
+	const byte PIN_DIO = 0;
 
 	//define Red Display Pins
-	const byte PIN_CLK_Red_1 = 3;; 
-	const byte PIN_CLK_Red_2 = 4; 
-	const byte PIN_CLK_Red_3 = 5; 
+	const byte PIN_CLK_Red_1 = 1;
+	const byte PIN_CLK_Red_2 = 2; 
+	const byte PIN_CLK_Red_3 = 3; 
 
 	//define Green Display Pins
-	const byte PIN_CLK_Green_1 = 6; 
-	const byte PIN_CLK_Green_2 = 7; 
-	const byte PIN_CLK_Green_3 = 8; 
+	const byte PIN_CLK_Green_1 = 4; 
+	const byte PIN_CLK_Green_2 = 5; 
+	const byte PIN_CLK_Green_3 = 6; 
 
 	//define Yellow Display Pins
-	const byte PIN_CLK_Yellow_1 = 9; 
-	const byte PIN_CLK_Yellow_2 = 10;
-	const byte PIN_CLK_Yellow_3 = 11;
+	const byte PIN_CLK_Yellow_1 = 7; 
+	const byte PIN_CLK_Yellow_2 = 8;
+	const byte PIN_CLK_Yellow_3 = 9;
 #endif
 
 class Delorean7SegmentControl{
